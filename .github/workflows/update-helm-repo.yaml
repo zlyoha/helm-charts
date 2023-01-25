@@ -87,7 +87,7 @@ jobs:
           fi
 
   release:
-    needs: [ setup ]
+#    needs: [ setup ]
     runs-on: ubuntu-latest
     if: needs.setup.outputs.changed == 'true'
     steps:
