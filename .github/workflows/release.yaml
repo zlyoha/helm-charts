@@ -1,11 +1,12 @@
-# Copy from
+# Copy from https://github.com/prometheus-community/helm-charts/blob/main/.github/workflows/release.yaml
+# see also docs: https://github.com/helm/chart-releaser-action
 
 name: Release Charts
 
 on:
   push:
     branches:
-      - release*
+      - main
 
 jobs:
   release:
