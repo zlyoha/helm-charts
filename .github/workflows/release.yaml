@@ -31,8 +31,8 @@ jobs:
         with:
           version: v3.9.2
 
-      - name: Add dependency chart repos
-        run: |
+#      - name: Add dependency chart repos
+#        run: |
 #          helm repo add bitnami https://charts.bitnami.com/bitnami
 #          helm repo add grafana https://grafana.github.io/helm-charts
 #          helm repo add zlyoha https://zlyoha.github.io/helm-charts
