@@ -3,6 +3,16 @@ entries:
   my-react-app:
   - apiVersion: v2
     appVersion: 0.1.4
+    created: "2023-05-28T13:15:39.510338041Z"
+    description: A Helm chart for Kubernetes
+    digest: 3ff16fc2a2a4b0b9ee070eba248a8a9434c515bcadbfb5702337a41ec187731e
+    name: my-react-app
+    type: application
+    urls:
+    - https://github.com/zlyoha/helm-charts/releases/download/my-react-app-0.1.5/my-react-app-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.1.4
     created: "2023-02-25T12:06:51.393243046Z"
     description: A Helm chart for Kubernetes
     digest: e5d228313c852911d1b3f2299f5005714eaec6f17687bc6ce2fc5bcf921b7388
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/zlyoha/helm-charts/releases/download/my-react-app-0.1.3/my-react-app-0.1.3.tgz
     version: 0.1.3
-generated: "2023-02-25T12:06:51.393256546Z"
+generated: "2023-05-28T13:15:39.510348841Z"
